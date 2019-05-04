@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+
+.lower-container{
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 40px 0;
+}
+.content{
+  display: inline-block;
+  width: 960px;
+  position: relative;
+  margin: 0 188px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+.ctext h1 {
+
+  font-size: 44px;
+  line-height: 48px;
+  margin: 0;
+  padding: 20px 0;
+  color: gray;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.ctext h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+    margin-top: -10px;
+    padding: 0 0 20px 0;
+    text-align: center;
+    color: rgb(122, 95, 95);
+
+}
+
+.first-row{
+  width: 100%;
+  height: 350px;
+  margin-top: 80px;
+  text-align: left;
+  color: #000;
+
+}
+.first-row img{
+  float: left;
+  width: 57%;
+  border-radius: 100%;
+}
+.data1{
+  width: 400px;
+  height: 232px;
+  float: right;
+  padding-left: 50px;
+  margin-top: 70px;
+
+}
+.data1 h3{
+    font-family: AvenirNextLTPro-Regular !important;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+
+}
+.data1 p{
+    padding-top: 16px;
+    padding-bottom: 28px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+
+}
+.data1 button{
+  background-color: rgb(60, 163, 77);
+  background-image: none !important;
+    padding: 0 16px !important;
+    height: 32px !important;
+    font-size: 15px;
+    font-weight: 600 !important;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+.data1 button:hover{
+  background-color: #333;
+  cursor: pointer;
+}
+
+.second-row{
+  width: 100%;
+  height: 350px;
+  text-align: left;
+  margin-top: 80px;
+  color: #000;
+
+
+}
+.second-row .data1{
+  float: right;
+  text-align: left;
+  padding: 0;
+  width: 350px;
+  margin-right: 53px;
+}
+.second-row img{
+  float: left;
+  width: 57%;
+  border-radius: 100%;
+}
+.btn2{
+  width: 100%;
+  height: 33px;
+  text-align: center;
+  margin-top: 55px;
+
+}
+.btn2 button{
+background-color: #2ca01c;
+padding: 0 16px !important;
+height: 32px !important;
+font-size: 15px;
+font-weight: 600 !important;
+line-height: 32px !important;
+text-align: left;
+border: none;
+border-radius: 2px;
+color: #fff;
+}
+
+.btn2 button:hover{
+  background-color: #5ca01c;
+  cursor: pointer;
+}
+
+
+@font-face {
+  font-family: AvenirNextLTPro-Regular;
+  src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+@font-face {
+  font-family: Geogrotesque;
+  src: url(fonts/Geogtq-Md.otf);
+}
